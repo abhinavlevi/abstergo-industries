@@ -4,16 +4,16 @@ export const PRESETS: EmployeePreset[] = [
   {
     id: 'lucy',
     name: 'Lucy Stillman',
-    role: 'Genetic Memory Researcher',
+    role: 'Genetic Research Scientist',
     clearance: 'Sector Alpha',
     badgeNumber: 'AS-0006-0986',
-    department: 'Animus Research / Lineage Div.',
+    department: 'Genetic Lineage & Memory Lab',
     securityString: 'animus 0006-0986',
     bloodType: 'A+',
-    dnaMarker: 'ISO-88A-PRECURSOR',
+    dnaMarker: 'ISO-88A-SEC',
     photoUrl: '/presets/lucy_stillman.png',
     defaultZoom: 1.0,
-    description: 'Senior Geneticist on the Animus Synchronizer'
+    description: 'Senior researcher leading genetic memory synchronization studies.'
   },
   {
     id: 'warren',
@@ -21,27 +21,27 @@ export const PRESETS: EmployeePreset[] = [
     role: 'Executive Research Director',
     clearance: 'Sector Master',
     badgeNumber: 'AS-0001-0001',
-    department: 'Neuroscience & Memory Extraction',
+    department: 'Neuroscience & Memory Research',
     securityString: 'vidic-exec-0001',
     bloodType: 'O+',
-    dnaMarker: 'HOM-SAPIENS-ALPHA',
+    dnaMarker: 'HOM-ALPHA-01',
     photoUrl: '/presets/warren_vidic.png',
     defaultZoom: 1.0,
-    description: 'Head of Project Animus & Senior Research Director'
+    description: 'Director of Neuroscience overseeing genetic exploration programs.'
   },
   {
     id: 'alan',
     name: 'Alan Rikkin',
     role: 'Chief Executive Officer',
-    clearance: 'Inner Sanctum',
+    clearance: 'Level 10 (Executive)',
     badgeNumber: 'AS-0000-0001',
     department: 'Executive Board & Global Operations',
-    securityString: 'rikkin-sanctum-0000',
+    securityString: 'rikkin-corp-0000',
     bloodType: 'AB-',
-    dnaMarker: 'TEMPLAR-COUNCIL-01',
+    dnaMarker: 'EXEC-BOARD-01',
     photoUrl: '/presets/alan_rikkin.png',
     defaultZoom: 1.0,
-    description: 'Chief Executive Officer & Guardian of the Inner Sanctum'
+    description: 'Chief Executive Officer of Abstergo Industries.'
   }
 ];
 
@@ -52,8 +52,8 @@ export const DEFAULT_BADGE: EmployeeBadge = {
   clearanceLevel: PRESETS[0].clearance,
   badgeNumber: PRESETS[0].badgeNumber,
   securityString: PRESETS[0].securityString,
-  issueDate: '2012-09-02',
-  expiryDate: '2028-09-01',
+  issueDate: '2024-01-15',
+  expiryDate: '2029-01-14',
   bloodType: PRESETS[0].bloodType,
   dnaMarker: PRESETS[0].dnaMarker,
   photoUrl: PRESETS[0].photoUrl,
