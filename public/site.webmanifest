@@ -1,0 +1,26 @@
+{
+  "name": "Abstergo Industries Security ID Generator",
+  "short_name": "Abstergo ID",
+  "description": "Create personalized employee badges, research credentials, and facility access keycards inspired by Abstergo Industries.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#081C36",
+  "theme_color": "#0B2545",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
